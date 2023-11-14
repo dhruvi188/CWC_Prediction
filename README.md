@@ -35,9 +35,9 @@
  * M. Siraj
 
 * Prediction of top 3 highest run Scorers in 2023:
-  1. Q de Kock --> 610 Runs
-  2. V Kohli --> 588 Runs
-  3. RG Sharma --> 577 Runs
+  1. V Kohli --> 659 Runs
+  2. Q de Kock --> 647 Runs
+  3. RG Sharma --> 587 Runs
   
 
 ## Basic Flow of the Event:
@@ -78,6 +78,8 @@
 * Prediction:
     Finally, the input data for which we wanted to predict was fed to the trained classifiers/regressors and the desired predictions were obtained.
      
+For Highest Run scorer prediction-
+Took all odi matches data of top 5 players in the ranking currently(before semis), and considering ground, date, and opponent as factors, ran a neural network model to predict the runs the batsman will hit in the semis and finals. Then added the predicted semis/finals runs with the current runs, and predicted the highest run scorer of the tournament.
 
 # Contributions :
  * Finalist and WinnerPrediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
