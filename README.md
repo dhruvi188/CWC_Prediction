@@ -10,7 +10,10 @@
 ## First things first : What are our predictions?
 * Finalist Teams : India and Australia
 
-* World Cup Winners : Australia/India
+* World Cup Winners :
+  1. By FinalistAndWinnerPrediction: Australia
+  2. By WC_pred: India
+  [Let's all remain optimistic and hope that our prediction comes true on the 19th of November, with India emerging as the victorious team in the competition.]
 
 * Semi-final Targets :
   1. Semi-Final 1 : India bats first : Target = 320
