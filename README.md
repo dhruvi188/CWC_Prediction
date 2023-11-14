@@ -84,4 +84,4 @@
  * Score Prediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
  * WC_Pred - Ayush Patel(202101439)
  * Players Prediction - Dhruvil Thakor(202101462) and Dhruvi Gohel(202101188)
- * Highest Run Scorer Prediction - Ayush Patel(202101439)
+ * Highest Run Scorer Prediction - Aayush Patel(202101452)
