@@ -76,7 +76,7 @@
     Finally, the input data for which we wanted to predict was fed to the trained classifiers/regressors and the desired predictions were obtained.
      
 
-* Contributions :
+# Contributions :
  * Finalist and WinnerPrediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
  * Score Prediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
  * WC_Pred - Ayush Patel(202101439)
