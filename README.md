@@ -38,8 +38,8 @@
    1. In the multi-class classification problems, the loss function used is categoriacal cross-entropy. We had to use different nomenclatures according to the specific model that we are using. For example - XGB class reffered to the same loss as 'mlogloss'. The models were judged based on accuracy and the loss functions were used to train the models.
    2. For regression problems, the usual mean square error was used as the loss function and the models were trained and judged based on the same.
   
-* Prediction
-  Finally, the input data for which we wanted to predict was fed to the trained classifiers/regressors and the desired predictions were obtained.
+* Prediction:
+    Finally, the input data for which we wanted to predict was fed to the trained classifiers/regressors and the desired predictions were obtained.
 
 * Deployment
      
