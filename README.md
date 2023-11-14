@@ -8,17 +8,17 @@
   4. Predict the Winner of ICC Cricket World Cup 2023
 
 ## First things first : What are our predictions?
-*Finalist Teams : India and Australia
+* Finalist Teams : India and Australia
 
-*World Cup Winners : 
+* World Cup Winners : Australia/India
 
-*Semi-final Scores :
+* Semi-final Targets :
   1. Semi-Final 1 : India bats first : Target = 320
   2. Semi-Final 1 : New Zealand bats first : Target = 292
-  3. Semi-Final 2 : South Africa bats : Target = 359
+  3. Semi-Final 2 : South Africa bats first : Target = 359
   4. Semi-Final 2 : Australia bats first : Target = 338
 
-*India Playing 11 for the 2 games :
+* India Playing 11 for the 2 games :
  * V. Kohli
  * R. Sharma
  * KL Rahul
@@ -31,7 +31,10 @@
  * J. Bumrah
  * M. Siraj
 
-*Best Run Scorers :
+* Prediction of top 3 highest run Scorers in 2023:
+  1. Q de Kock --> 610 Runs
+  2. V Kohli --> 588 Runs
+  3. RG Sharma --> 577 Runs
   
 
 ## Basic Flow of the Event:
@@ -55,11 +58,15 @@
    
 * Feature Selection: Used EDA stats, correlations to extract the necessary features and removed redundant, noisy and irrelevant features. it plays crucial role on optimizing and enhancing model performance and reducing computational complexity.
 
+* Data Analysis: As the World Cup is now reaching to its end, we analysed the data of last 5 year including current year's and figured the form of batsmen and bowler by [this](https://www.researchgate.net/publication/323611656_Predicting_Players'_Performance_in_One_Day_International_Cricket_Matches_Using_Machine_Learning) research paper. Now by the form rating of the batsmen and bowlers playing in WCC, we extracted top 6 batsmen and top 5 bowlers.
+
+  1. Batsmen Rating Formula: 0.4262*Ave + 0.2566*Inns + 0.1510*SR + 0.0787*Centuries + 0.0556*Fifties - 0.0328*Zeros
+  2. Bowlers Rating Formula: 0.3269*Overs + 0.2846*Inns + 0.1877*SR + 0.1210*Ave
+
 * Model Training:
     1. Performed Deep neural network model considering activation function, class weight, batch normalization, kernel initializer, kernel regularizer, batch size and early stopping. We tried out many different configurations of the network architecture and settled on the one which gave us better accuracy and less overfitting.
     2. We also used RandomForestClassifier and RandomForestRegressor and tried different hyperparamer values - especially max_depth which affected the extent of overfitting. We observed that this model was giving pretty good results on almost all the datasets.
     3. We tried out XGB as well, as expected it was performing good on the datasets with small number of instances.
- 
 
 * Model Evaluation:
    1. In the multi-class classification problems, the loss function used is categoriacal cross-entropy. We had to use different nomenclatures according to the specific model that we are using. For example - XGB class reffered to the same loss as 'mlogloss'. The models were judged based on accuracy and the loss functions were used to train the models.
@@ -67,7 +74,5 @@
   
 * Prediction:
     Finally, the input data for which we wanted to predict was fed to the trained classifiers/regressors and the desired predictions were obtained.
-
-* Deployment
      
   
