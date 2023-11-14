@@ -7,6 +7,33 @@
   3. Predicting the Finalist Teams and Players
   4. Predict the Winner of ICC Cricket World Cup 2023
 
+## First things first : What are our predictions?
+*Finalist Teams : India and Australia
+
+*World Cup Winners : 
+
+*Semi-final Scores :
+  1. Semi-Final 1 : India bats first : Target = 320
+  2. Semi-Final 1 : New Zealand bats first : Target = 292
+  3. Semi-Final 2 : South Africa bats : Target = 359
+  4. Semi-Final 2 : Australia bats first : Target = 338
+
+*India Playing 11 for the 2 games :
+ * V. Kohli
+ * R. Sharma
+ * KL Rahul
+ * S. Iyer
+ * R. Jadeja
+ * S. Gill
+ * K. Yadav
+ * M. Shami
+ * SN Thakur
+ * J. Bumrah
+ * M. Siraj
+
+*Best Run Scorers :
+  
+
 ## Basic Flow of the Event:
 * Data Scraping/ Collection: We collected the data required in all the predictions. We considered the ODI data ranging from past 1 year to 50 years.
   1. Major data columns used:
