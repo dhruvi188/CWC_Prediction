@@ -84,6 +84,6 @@ Took all odi matches data of top 5 players in the ranking currently(before semis
 # Contributions :
  * Finalist and WinnerPrediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
  * Score Prediction - Dhruvi Gohel(202101188) and Varun Vyas(202101468)
- * WC_Pred - Ayush Patel(202101439)
+ * Finalist_prediction_2- Ayush Patel(202101439)
  * Players Prediction - Dhruvil Thakor(202101462) and Dhruvi Gohel(202101188)
- * Highest Run Scorer Prediction - Aayush Patel(202101452)
+ * Highest Run Scorer Prediction, API- Aayush Patel(202101452)
